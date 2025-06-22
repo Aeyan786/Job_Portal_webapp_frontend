@@ -53,13 +53,13 @@ const ApplicantsTable = () => {
             <TableHead >Actions</TableHead>
           </TableRow>
         </TableHeader>
-        {applicants.applications.length === 0 ? (
+        {applicants?.applications?.length === 0 ? (
           <caption className="text-center my-10 text-muted-foreground">
             No Applications found
           </caption>
         ) : (
           <TableBody>
-            {applicants.applications.map((e, i) => {
+            {applicants?.applications?.map((e, i) => {
               return (
                 <TableRow key={i}>
                   <TableCell className="capitalize">
