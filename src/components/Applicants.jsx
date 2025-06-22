@@ -37,7 +37,7 @@ const Applicants = () => {
 
       <div className="max-w-6xl mx-auto my-10 px-4">
         <h1 className="text-lg font-bold">
-          Applicants ({applicants?.applications?.length || "(0)"})
+          Applicants ({applicants?.applications?.length || "0"})
         </h1>
         <div className="my-8">
           <ApplicantsTable />
