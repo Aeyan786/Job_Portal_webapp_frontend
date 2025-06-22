@@ -105,7 +105,7 @@ function App() {
           }
         />
         <Route
-          path="/admin/jobsid/applicants"
+          path="/admin/jobs/:id/applicants"
           element={
             <ProtectedRoute>
               <Applicants />
