@@ -1,12 +1,45 @@
-# React + Vite
+# JobSite - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of **JobSite**, a simple job portal that connects applicants with recruiters. It’s built using **React.js**, **Tailwind CSS**, and **ShadCN UI** for a clean and responsive UI.
 
-Currently, two official plugins are available:
+## 🔑 Features (for Applicants)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- View all available jobs without logging in
+- View job details
+- After login:
+  - Apply to jobs
+  - See the status of each application (Pending / Accepted / Rejected)
+  - Edit personal profile: name, email, phone number, skills, resume, profile picture, and bio
 
-## Expanding the ESLint configuration
+## 👨‍💼 Features (for Recruiters)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Create, update, and delete companies
+- Create, update, and delete jobs (only after creating a company)
+- Can only delete a company after removing all its jobs
+- View applicants who applied to a job
+- See applicant details (name, email, resume, etc.)
+- Update application status (default is Pending → can be set to Accepted or Rejected)
+
+## 🔐 Access Control
+
+- Public users can only view jobs
+- Applying to jobs or accessing dashboards requires login
+- Role-based features (applicant vs recruiter)
+
+## ⚙️ Tech Stack
+
+- React.js
+- Tailwind CSS
+- ShadCN UI
+- Axios (for API calls)
+- React Router
+
+## 🌐 Deployment
+
+This frontend is deployed separately from the backend. Make sure to set the correct backend API URL in your `.env` file.
+
+## 🏁 Getting Started
+
+```bash
+npm install
+npm run dev
