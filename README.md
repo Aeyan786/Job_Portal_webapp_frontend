@@ -34,9 +34,11 @@ This is the frontend of **JobSite**, a simple job portal that connects applicant
 - Axios (for API calls)
 - React Router
 
-## 🌐 Deployment
+## 🌐 Live Demo
 
-This frontend is deployed separately from the backend. Make sure to set the correct backend API URL in your `.env` file.
+Frontend is deployed on **Vercel**  
+🔗 [jobsite-frontend.vercel.app](https://job-portal-webapp-frontend.vercel.app) *(replace with actual link)*
+
 
 ## 🏁 Getting Started
 
