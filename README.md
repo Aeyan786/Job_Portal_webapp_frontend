@@ -36,8 +36,8 @@ This is the frontend of **JobSite**, a simple job portal that connects applicant
 
 ## 🌐 Live Demo
 
--Backend is deployed on **Railway**
--Frontend is deployed on **Vercel**  
+- Backend is deployed on **Railway**
+- Frontend is deployed on **Vercel**  
 🔗 [jobsite-frontend.vercel.app](https://job-portal-webapp-frontend.vercel.app)
 
 
